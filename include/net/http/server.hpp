@@ -62,7 +62,6 @@ namespace net {
                     if (ec) {
                         // TODO: log error
                     } else {
-                        std::cout << "new connection: " << sock.remote_endpoint().address().to_string() << ":" << sock.remote_endpoint().port() << std::endl;
                         make_connection(s->ioc_, std::move(sock), s->router_)->start();
                     }
 

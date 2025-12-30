@@ -68,7 +68,7 @@ namespace net::http {
 
                 std::stringstream ss;
 
-                ss << boost::beast::http::to_string(method::get)
+                ss << boost::beast::http::to_string(verb)
                    << ":"
                    << path;
 
