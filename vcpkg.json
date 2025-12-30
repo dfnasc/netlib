@@ -1,0 +1,15 @@
+{
+  "name": "netlib",
+  "version-string": "1.0.0",
+  "dependencies": [
+    {
+      "name": "boost-asio",
+      "features": [
+        "ssl"
+      ]
+    },
+    "boost-beast",
+    "boost-url",
+    "boost-test"
+  ]
+}
